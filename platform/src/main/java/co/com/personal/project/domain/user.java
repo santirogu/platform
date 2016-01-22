@@ -29,7 +29,7 @@ public class user {
 	/**
 	 * @param username
 	 * @param password
-	 * @param lastconnection
+	 * @param lastconnection 
 	 * @param name
 	 * @param lastname
 	 * @param birthdate

@@ -26,6 +26,7 @@ public class user {
 	private float longitude;
 	private String iplastconnection;
 	private boolean available;
+	private String lastpassword;
 	/**
 	 * @param username
 	 * @param password
@@ -40,10 +41,11 @@ public class user {
 	 * @param longitude
 	 * @param iplastconnection
 	 * @param available
+	 * @param lastpassword
 	 */
 	public user(String username, String password, Date lastconnection, String name, String lastname, Date birthdate,
 			String cellphone, String email, int usertype, float latitude, float longitude, String iplastconnection,
-			boolean available) {
+			boolean available, String lastpassword) {
 		super();
 		this.username = username;
 		this.password = password;
@@ -58,6 +60,7 @@ public class user {
 		this.longitude = longitude;
 		this.iplastconnection = iplastconnection;
 		this.available = available;
+		this.lastpassword = lastpassword;
 	}
 	/**
 	 * 
@@ -221,6 +224,16 @@ public class user {
 	public void setAvailable(boolean available) {
 		this.available = available;
 	}
-	
-	
+	/**
+	 * @return the lastpassword
+	 */
+	public String getLastpassword() {
+		return lastpassword;
+	}
+	/**
+	 * @param lastpassword the lastpassword to set
+	 */
+	public void setLastpassword(String lastpassword) {
+		this.lastpassword = lastpassword;
+	}
 }

@@ -52,6 +52,4 @@ public class usertype {
 	public void setType(String type) {
 		this.type = type;
 	}
-	
-	
 }
